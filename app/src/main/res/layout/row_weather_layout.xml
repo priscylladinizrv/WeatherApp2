@@ -47,7 +47,7 @@
         android:text=" "
         app:layout_constraintEnd_toStartOf="@+id/ButtonFavorite"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/TxtWind"
+        app:layout_constraintStart_toStartOf="@+id/Wind"
         app:layout_constraintTop_toBottomOf="@+id/TxtCity" />
 
 
@@ -66,7 +66,7 @@
         tools:text="Buenos Aires" />
 
     <TextView
-        android:id="@+id/TxtWind"
+        android:id="@+id/Wind"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -84,11 +84,11 @@
         android:textSize="10sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/TxtValue"
-        app:layout_constraintStart_toEndOf="@+id/TxtWind"
+        app:layout_constraintStart_toEndOf="@+id/Wind"
         tools:text="7 m/s" />
 
     <TextView
-        android:id="@+id/TxtClouds"
+        android:id="@+id/Clouds"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
@@ -99,14 +99,14 @@
         app:layout_constraintStart_toEndOf="@+id/TxtWindValue" />
 
     <TextView
-        android:id="@+id/TxtClaoudsValue"
+        android:id="@+id/TxtCloudsValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView - "
         android:textSize="10sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/TxtValue"
-        app:layout_constraintStart_toEndOf="@+id/TxtClouds"
+        app:layout_constraintStart_toEndOf="@+id/Clouds"
         tools:text="77%" />
 
 
@@ -119,13 +119,13 @@
         android:textSize="10sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/TxtValue"
-        app:layout_constraintStart_toEndOf="@+id/TxtClaoudsValue"
+        app:layout_constraintStart_toEndOf="@+id/TxtCloudsValue"
         tools:text="100hps" />
 
 
 
     <TextView
-        android:id="@+id/txt_country"
+        android:id="@+id/TxtCountry"
         android:layout_width="32dp"
         android:layout_height="24dp"
         android:layout_marginTop="12dp"

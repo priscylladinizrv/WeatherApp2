@@ -53,11 +53,11 @@ class ListAdapter() : RecyclerView.Adapter<ListAdapter.ViewHolder> (){
         fun bind(city: City, preferredUnit: String){
 
             itemView.TxtCity.text = "${city.name}"
-            itemView.txt_country.text = ", ${city.sys.country}"
             itemView.TxtValue.text = city.main.temp.toInt().toString()
-            itemView.TxtClaoudsValue.text = city.clouds.all.toString() + "%"
             itemView.TxtWindValue.text = city.wind.speed.toString() + " m/s"
+            itemView.TxtCloudsValue.text = city.clouds.all.toString() + "%"
             itemView.TxtPressure.text = city.main.pressure.toString() + " hps"
+            itemView.TxtCountry.text = ", ${city.sys.country}"
 
             if( preferredUnit == "metric"){
                 itemView.TxtUnit.text = "°C"
