@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="type_c">C°</string>
+    <string name="type_f">F°</string>
+    <string name="save_settings">Settings saved with success</string>
+    <string name="settings">Settings</string>
+
+
+
+</resources>
